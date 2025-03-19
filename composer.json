@@ -1,0 +1,17 @@
+{
+    "name": "williamlg/gestion_tache_test_unitaire",
+    "require": {
+        "phpunit/phpunit": "^9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "William Le Gavrian",
+            "email": "williamlg@free.fr"
+        }
+    ]
+}
