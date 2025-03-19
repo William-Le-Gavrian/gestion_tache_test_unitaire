@@ -71,7 +71,7 @@
         storedTasks.forEach(taskText => {
             const taskItem = document.createElement('div');
             taskItem.className = 'task-item';
-            taskItem.innerHTML = `<span>${taskText}</span> <button onclick="removeTask(this)">Supprimer</button>`;
+            taskItem.innerHTML = `<span>${taskText}</span> <button id="button" onclick="removeTask(this)">Supprimer</button>`;
             taskList.appendChild(taskItem);
         });
     }
